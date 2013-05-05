@@ -1,0 +1,4 @@
+name: hubplug
+main: com.zaptremworld.hubplug.LoginPlugin
+version: 0.1
+depend: [Essentials] 
