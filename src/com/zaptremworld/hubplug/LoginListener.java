@@ -55,7 +55,7 @@ Connection conn;
 			money= -1;
 			e.printStackTrace();
 		}
-    	log.info("User"+user+"has"+money+"zapbucks. ZING!");
+    	log.info("User "+user+" has "+money+" zapbucks. ZING!");
     
     }
  public void writesql(){
