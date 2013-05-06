@@ -24,9 +24,9 @@ Connection conn;
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
         log= logger;
         
-    
+	}
     @EventHandler
-    public void onLogin PlayerLoginEvent event {
+    public void onLogin(PlayerLoginEvent event) { 
     	
         String user = event.getPlayer().getDisplayName();
     	double money;
