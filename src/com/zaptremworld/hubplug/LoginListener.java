@@ -27,7 +27,7 @@ Connection conn;
     
 	
 	
-	try {
+	try {                                // to do: add this to a config file
 	    conn =
 	       DriverManager.getConnection("jdbc:mysql://localhost/test?" +
 	                                   "user=monty&password=greatsqldb");
