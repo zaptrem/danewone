@@ -37,11 +37,9 @@ public Logger log;
 			e.printStackTrace();
 		}
     	log.info("User "+user+" has "+money+" zapbucks. ZING!");
-    	new sendMysql(this, );
     }
  
 	 
 	 
  }
  
-}

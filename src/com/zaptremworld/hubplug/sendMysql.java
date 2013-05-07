@@ -1,5 +1,7 @@
 package com.zaptremworld.hubplug;
 
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -9,12 +11,13 @@ import java.sql.Statement;
 
 public class sendMysql {
 	
+	String user = LoginPlugin.user; 
 	Connection conn;
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
         log= logger;
         
     
-
+String user = sendMysql.this.getConfig().getString("user");
 
 
 
