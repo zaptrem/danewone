@@ -10,6 +10,8 @@ public class LoginPlugin extends JavaPlugin {
     		// Save a copy of the default config.yml if one is not there
             this.saveDefaultConfig();
         new LoginListener(this, getLogger());
+        String user = this.getConfig().getString(user);
         
     }
+    
 }

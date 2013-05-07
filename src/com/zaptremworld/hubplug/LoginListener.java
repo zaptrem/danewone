@@ -19,7 +19,6 @@ import com.earth2me.essentials.api.UserDoesNotExistException;
 
 public class LoginListener implements Listener {
 public Logger log;
-Connection conn;
 	public LoginListener(LoginPlugin plugin, Logger logger) {
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
         log= logger;
@@ -38,7 +37,7 @@ Connection conn;
 			e.printStackTrace();
 		}
     	log.info("User "+user+" has "+money+" zapbucks. ZING!");
-    
+    	new sendMysql(this, );
     }
  
 	 
